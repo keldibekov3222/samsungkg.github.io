@@ -2,7 +2,74 @@
 .bg-tittle-section{
 	background-color: #ccc !important;
 }
+.title {
+	color: #fff;
+	text-shadow: 0 0 10px #555, 0 0 5px #333;
+	font-weight: 700;
+	font-size: 4.06667vw;
+}
+.txt {
+	color: #fff;
+	text-shadow: 0 0 10px #555, 0 0 5px #333;
+	font-size: 20px;
+	line-height: 32px;
+}
+.card {
+	height: 220px;
+}
 
+.btn1 {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	width: 200px;
+	height: 37px;
+	border-radius: 50px;
+	transition: background-color .3s linear;
+	transition: border-color .3s linear;
+}
+.btn1:hover {
+	background-color: #000;
+	border-color: #000;
+}
+
+
+/* BLACK */
+.title2 {
+	color: #000;	
+	font-weight: 700;
+	font-size: 4.06667vw;
+}
+.txt2 {
+	color: #000;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+.btn2 {
+	color: #000!important;
+	border: 1px solid #000!important;
+}
+.btn2:hover {
+	color: #fff!important;
+	background-color: #000!important;
+	border-color: #000!important;
+}
+
+
+.desctiption {
+	
+	max-width: 450px!important;
+	display: flex!important;
+	text-align: left!important;
+	
+}
+.carousel-caption {
+	bottom: 150px!important;
+}
 .social{
 	padding: 0;
 	display: flex ;
