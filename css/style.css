@@ -4,13 +4,13 @@
 }
 .title {
 	color: #fff;
-	text-shadow: 0 0 10px #555, 0 0 5px #333;
+	/*text-shadow: 0 0 10px #555, 0 0 5px #333;*/
 	font-weight: 700;
 	font-size: 4.06667vw;
 }
 .txt {
 	color: #fff;
-	text-shadow: 0 0 10px #555, 0 0 5px #333;
+	/*text-shadow: 0 0 10px #555, 0 0 5px #333;*/
 	font-size: 20px;
 	line-height: 32px;
 }
@@ -42,6 +42,16 @@
 	border-color: #000;
 }
 
+.carousel-control-next-icon {
+	color: #212529!important;
+}
+
+.carousel-indicators .active {
+	background-color: #0e1011!important;
+}
+.carousel-indicators li {
+	background-color: #3f4144!important;
+}
 
 /* BLACK */
 .title2 {
