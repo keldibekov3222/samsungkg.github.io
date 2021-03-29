@@ -15,7 +15,13 @@
 	line-height: 32px;
 }
 .card {
+	text-decoration: none;
 	height: 220px;
+	color: #212529;
+}
+.card:hover {
+	color: #212529;
+	text-decoration: none;
 }
 
 .btn1 {
