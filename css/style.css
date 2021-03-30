@@ -232,7 +232,7 @@ footer{
 
 @media screen and (max-width: 700px) {
 	.carousel-caption {
-		bottom: 20px!important;
+		bottom: 10px!important;
 		left: 8%!important;
 	}
 	.carousel-indicators{
@@ -261,14 +261,14 @@ footer{
 		margin-bottom: 5px;
 	}
 	.btn1 {
-		width: 100px;
-		height: 20px;
-		font-size: 9px;
+		width: 120px;
+		height: 22px;
+		font-size:10px;
 	}
 	.btn1 {
-		width: 100px;
-		height: 20px;
-		font-size: 9px;
+		width: 120px;
+		height: 22px;
+		font-size: 10px;
 	}
 	
 }
