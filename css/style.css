@@ -56,6 +56,22 @@
 	background-color: #3f4144!important;
 }
 
+.card-img-top {
+	min-width: 253px!important;
+	min-height: 169px!important;
+	max-height: 169px!important;
+}
+
+
+.link {
+	text-decoration: none;
+	color: #212529;
+}
+.link:hover {
+	text-decoration: none;
+	color: #212529;
+}
+
 /* BLACK */
 .title2 {
 	color: #000;	
@@ -221,10 +237,28 @@ footer{
 
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1201px) {
 
 	.mobile-stands{
 		display: block;
+	}
+	.card-img-top {
+		min-width: 208px!important;
+		min-height: 139px!important;
+		max-height: 139px!important;
+	}
+   
+
+}
+@media screen and (max-width: 1000px) and (min-width: 750px) {
+
+	.mobile-stands{
+		display: block;
+	}
+	.card-img-top {
+		min-width: 148px!important;
+		min-height: 99px!important;
+		max-height: 99px!important;
 	}
    
 
@@ -232,7 +266,7 @@ footer{
 
 @media screen and (max-width: 700px) {
 	.carousel-caption {
-		bottom: 10px!important;
+		bottom: -5px!important;
 		left: 8%!important;
 	}
 	.carousel-indicators{
