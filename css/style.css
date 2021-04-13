@@ -233,7 +233,10 @@ footer{
 	 
 }
 
-
+.l {
+	max-width: 180px!important;
+	max-height: 100px!important;
+}
 
 
 
@@ -282,6 +285,10 @@ footer{
 	}
 	.title2 {
 		font-size: 16px;
+	}
+	.l {
+		max-width: 100px!important;
+		max-height: 100px!important;
 	}
 	.title {
 		font-size: 16px;
